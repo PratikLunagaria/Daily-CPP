@@ -68,4 +68,98 @@
 //     return 0;
 // }
 
-// 6: loops
+// 6: for loop
+// int main(){
+//     int n;
+//     std::cout << "Enter n: ";
+//     std::cin >> n;
+//     int sum = 0;
+//     for(int i=1; i <= n; i++)
+//         std::cout << "loop number: " << i <<std::endl;
+//     // you don't need curly braces if you have a single statement
+//     return 0;
+// }
+
+// 7: while loop
+// int main()
+// {
+//     int n;
+//     std::cout << "Add the number:";
+//     std::cin >> n;
+//     while(n < 10)
+//     {
+//         std::cout << "Current no:" << n << std::endl;
+//         n++;
+//     }
+//     return 0;
+// }
+
+// 8: do while
+// #include <cmath>
+// int main()
+// {
+//     int n;
+//     do
+//     {
+//         std::cout << "Enter a natural number n: ";
+//         std::cin >> n;
+//     }
+//     while(n <= 0);
+//         std::cout << "the square root is: " << sqrt(n);
+
+//     return 0;
+// }
+
+// 9: foreach loop  (C++ 11)
+// int main()
+// {
+//     int arr1[]={1,2,3,4,5,6};
+
+//     for(int i : arr1) // this method isn't allowed in old versions of c++
+//         std::cout << i << std::endl;
+// }
+
+// 10: break and continue statement
+// int main()
+// {
+//     int sum = 0;
+//     for(int i =1; i <= 5; ++i)
+//     {
+//         int number;
+//         std::cout << "Enter the number:";
+//         std::cin>>number;
+//         if(number==1)
+//             // continue;
+//             break;
+//         sum+=number;
+//     }
+//     std::cout<<"Sum is : "<< sum;
+//     return 0;
+// }
+
+// 11: goto statement
+
+// int main()
+// {
+//     int i = 1;
+
+//     AGAIN:
+//         std::cout << i << std::endl;
+//         ++i;
+//         if(i <= 20)
+//             goto AGAIN;
+
+//         return 0;
+
+// }
+
+// 12: infinite loop with for statement
+
+// int main()
+// {
+//     int sum = 0;
+//     for(int i=0; ; i++)
+//     {
+//         std::cout << "the number is :" << i << std::endl;
+//     }
+// }
